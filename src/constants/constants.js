@@ -1,0 +1,50 @@
+export const projects = [
+  {
+    title: 'Badger',
+    description:"Built a discord bot using discord.js, IBM Watson, dialogflow.",
+    image: '/images/badger.png',
+    icon: '/images/badgericon.png',
+    tags: ['Node', 'JavaScript', 'Mongo'],
+    source: 'https://github.com/GreaZeY/badger-discord-bot',
+    visit: 'https://top.gg/bot/609713401777618965',
+    id: 0,
+  },
+  {
+    title: 'Grizara',
+    description: "An e-commerce Website for business where user can create thier account and shop products.",
+      image: '/images/grizara.png',
+      icon: '/images/grizaraicon.png',
+      tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://github.com/GreaZeY/Grizara',
+    visit: 'https://grizara.netlify.app/',
+    id: 1,
+  },
+  {
+    title: 'Web OCR',
+    description: "A web OCR app made by using tesseract engine.",
+      image: '/images/webocr.jpg',
+      icon: '/images/webocricon.png',
+      tags: ['React', 'Express','Node'],
+    source: 'https://github.com/GreaZeY/Web-OCR',
+    visit: 'https://greazey-web-ocr.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'To-Do List',
+    description: "A To-Do List app which reminds you of tasks that need to be completed.",
+      image: '/images/todo.png',
+      icon: '/images/todoicon.png',
+      tags: ['React', "HTML","CSS"],
+    source: 'https://github.com/GreaZeY/To-Do-List',
+    visit: 'https://greazey-todo-list.netlify.app/',
+    id: 3,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, text: 'Started pursuing my graduation in B.Tech in Information Technology. ', },
+  { year: 2018, text: 'Built my first Node.js api.', },
+  { year: 2019, text: 'Started learning all skills needed to become a Web Developer.', },
+  { year: 2020, text: 'Built some real world web applications.', },
+  { year: 2021, text: 'Enhancing my skills further to advance in this field.', },
+];
